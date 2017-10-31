@@ -234,6 +234,7 @@ public class notepad extends JFrame implements ActionListener,WindowListener
 				int gh = area.getSelectionEnd();
 				area.replaceRange(stime,hg,gh);
 				f=3;
+				//f=1;
 			}
 		}
 		
