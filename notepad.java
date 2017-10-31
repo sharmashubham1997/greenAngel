@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.io.*;
 import java.awt.print.*;
 import java.util.*;
+// i love java
 public class notepad extends JFrame implements ActionListener,WindowListener
 {
 	int f = -1;
