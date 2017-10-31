@@ -472,7 +472,6 @@ public class notepad extends JFrame implements ActionListener,WindowListener
 			f = 1;
 			text = area.getSelectedText();
 			gposdel = area.getCaretPosition();
-			//int del = ta.getText().indexOf(deltree);
 			area.replaceRange("",gposdel,gposdel+text.length());
 			
 			
@@ -483,7 +482,6 @@ public class notepad extends JFrame implements ActionListener,WindowListener
 			f = 1;
 			text = area.getSelectedText();
 			gposdel = area.getCaretPosition();
-			//int del = ta.getText().indexOf(text);
 			area.replaceRange("",gposdel,gposdel+text.length());
 		}
 		
