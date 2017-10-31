@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.io.*;
 import java.awt.print.*;
 import java.util.*;
+// i love java
 public class notepad extends JFrame implements ActionListener,WindowListener
 {
 	int f = -1;
@@ -234,6 +235,7 @@ public class notepad extends JFrame implements ActionListener,WindowListener
 				int gh = area.getSelectionEnd();
 				area.replaceRange(stime,hg,gh);
 				f=3;
+				//f=1;
 			}
 		}
 		
